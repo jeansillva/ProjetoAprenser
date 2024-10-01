@@ -13,18 +13,40 @@ p, a{
     font-size: 1.6rem;
 }
 
+nav a{
+    color: inherit; /* Vai herdar a cor do elemento pai*/
+}
+
 .upper{
     text-transform: uppercase;
 }
 
 .wrapperContainer-dark{
     background-color: #2a2a2a;
+    color:#fafafa
 }
 
 .wrapperContainer-dark2{
     background-color: #003464;
+    color: #fafafa;
 }
 
 .wrapperContainer-light{
     background-color: #fafafa;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: .5rem;
 }
