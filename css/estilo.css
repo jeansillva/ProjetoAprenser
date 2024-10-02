@@ -13,12 +13,25 @@ p, a{
     font-size: 1.6rem;
 }
 
+h1{
+    font-size: 4.8rem;
+}
+
 nav a{
     color: inherit; /* Vai herdar a cor do elemento pai*/
 }
 
 .upper{
     text-transform: uppercase;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
 }
 
 .wrapperContainer-dark{
@@ -43,10 +56,38 @@ nav a{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a{
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav a:hover {
+    background-color: black;
 }
 
 .header_nav ul{
     list-style-type: none;
     display: flex;
-    gap: .5rem;
+    gap: .6rem;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(transparent, yellow) ;
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Lembrete: centraliza na vertical*/
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 2rem;
 }
