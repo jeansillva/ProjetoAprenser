@@ -42,6 +42,12 @@ nav a{
     display: inline-block;
     color: inherit;
 }
+.wrapperContainer-fixed{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
 .wrapperContainer{
     padding-top: 1px;
@@ -177,4 +183,8 @@ nav a{
     font-size: 1.6rem;
     text-align: center;
     padding: 4.5rem;
+}
+
+.wrapperContainer-padded{
+    padding-top: 12rem;
 }
